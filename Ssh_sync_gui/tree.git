@@ -1,0 +1,52 @@
+.
+├── apps
+│   ├── components
+│   │   └── Shh_sync
+│   │       └── ssh_sync_gui.py
+│   ├── themes
+│   │   ├── amiga_mui_light.json
+│   │   ├── amiga_wb light.json
+│   │   ├── amiga_wb_light.json
+│   │   ├── app_factory.json
+│   │   ├── blue_panels_dark.json
+│   │   ├── blue_theme_light.json
+│   │   ├── bluish_light.json
+│   │   ├── classic_dark.json
+│   │   ├── cyberpunk_dark.json
+│   │   ├── green_shad_light.json
+│   │   ├── green_theme_light.json
+│   │   ├── gta_forums_dark.json
+│   │   ├── gta_forums_light.json
+│   │   ├── gta_liberty_city_dark.json
+│   │   ├── gta_san_andreas_dark.json
+│   │   ├── gta_vice_city_dark.json
+│   │   ├── img_factory_dark.json
+│   │   ├── img_factory_light.json
+│   │   ├── knight_rider_dark.json
+│   │   ├── lavender_theme_light.json
+│   │   ├── matrix_dark.json
+│   │   ├── pastel_theme_light.json
+│   │   ├── peach_theme_light.json
+│   │   ├── pink_theme_light.json
+│   │   ├── professional_light.json
+│   │   ├── red_dead_theme_dark.json
+│   │   ├── red_theme_dark.json
+│   │   ├── rockstar_dark.json
+│   │   ├── synthwave_outrun_dark.json
+│   │   ├── tea_and_toast_dark.json
+│   │   ├── themes_organization.md
+│   │   └── yellow_theme_light.json
+│   └── utils
+│       ├── app_settings_system.py
+│       ├── themer_settings.json
+│       └── update_themes_script.py
+├── cc.py
+├── CHANGELOG_v1.2.md
+├── CHANGELOG_v1.3.md
+├── DELIVERY_SUMMARY.md
+├── INSTALLATION.md
+├── launch_ssh_sync.py
+├── README_SSH_SYNC.md
+└── tree.git
+
+6 directories, 44 files
