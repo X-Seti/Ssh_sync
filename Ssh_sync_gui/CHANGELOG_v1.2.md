@@ -162,30 +162,30 @@ accent_color = theme_colors.get('accent_primary', '#4a90d9')
 ## Testing Notes
 
 ### Tested Scenarios
-✅ Window dragging from title area
-✅ Window dragging from icon area  
-✅ Window dragging from toolbar gaps
-✅ Button clicks don't trigger dragging
-✅ Corner resizing (all 4 corners)
-✅ Edge resizing (all 4 edges)
-✅ App icon visible in title bar
-✅ Theme colors applied correctly
-✅ Fonts loaded from app_settings
-✅ Alternating row colors visible
-✅ Local file rename
-✅ Remote file rename (when connected)
-✅ Local file delete
-✅ Remote file delete (when connected)
-✅ Local directory creation
-✅ Remote directory creation (when connected)
-✅ File search/find
-✅ File info display (local)
-✅ File info display (remote)
-✅ Remote buttons disabled when not connected
-✅ Remote buttons enabled when connected
+- ✅ Window dragging from title area
+- ✅ Window dragging from icon area  
+- ✅ Window dragging from toolbar gaps
+- ✅ Button clicks don't trigger dragging
+- ✅ Corner resizing (all 4 corners)
+- ✅ Edge resizing (all 4 edges)
+- ✅ App icon visible in title bar
+- ✅ Theme colors applied correctly
+- ✅ Fonts loaded from app_settings
+- ✅ Alternating row colors visible
+- ✅ Local file rename
+- ✅ Remote file rename (when connected)
+- ✅ Local file delete
+- ✅ Remote file delete (when connected)
+- ✅ Local directory creation
+- ✅ Remote directory creation (when connected)
+- ✅ File search/find
+- ✅ File info display (local)
+- ✅ File info display (remote)
+- ✅ Remote buttons disabled when not connected
+- ✅ Remote buttons enabled when connected
 
-### Known Limitations
-- Ignore file feature is placeholder (UI only)
+### Known Limitations - TODOs
+- Ignore file feature is placeholder (UI only) TODO
 - Remote file replace not implemented
 - Requires active SSH connection for remote operations
 - No drag-and-drop file support yet
@@ -208,14 +208,6 @@ The application now properly integrates with the theme engine:
 - `button_font_family` - Button font
 - `button_font_size` - Button font size
 - `button_font_weight` - normal or bold
-
-**Fallback behavior:**
-- If app_settings not available: uses default dark theme
-- If theme colors missing: uses default colors
-- If font settings missing: uses Segoe UI defaults
-- All fallbacks tested and working
-
-## Future Enhancements
 
 ### Planned Features
 - [ ] Full ignore file implementation with .syncignore file
@@ -244,7 +236,7 @@ The application now properly integrates with the theme engine:
 - Configurable delete behavior
 
 **v1.0**
-- Initial release
+- Initial ported release
 - Basic SSH sync functionality
 - Connection management
 - Auto-sync support
